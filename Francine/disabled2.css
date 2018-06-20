@@ -1,0 +1,157 @@
+body .paper .container .head .face .nose {
+    margin: auto;
+    left: 58%;
+    height: 27%;
+    width: 27%;
+    top: 41%;
+    z-index: 9;
+    text-align: center;
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+body .paper .container .head .face .nose:hover {
+    margin: auto;
+    left: 58%;
+    height: 29%;
+    width: 27%;
+    top: 41%;
+    z-index: 9;
+    text-align: center;
+    transition-property: height;
+    transition-duration: 1s;
+}
+
+body .paper .container .head .face .mouth {
+    top: 74.5%;
+    border-radius: 50%;
+    left: 49%;
+    margin: auto;
+    width: 35%;
+    height: 11%;
+    z-index: 8888;
+    transform: skewY(-3deg) rotate(1deg);
+    box-shadow: -9px 31px 12px -14px rgba(249,236,233,0.55);
+    transition: all 1s ease-out;
+}
+
+body .paper .container .head .face .mouth:hover {
+    top: 74.5%;
+    border-radius: 50%;
+    left: 46%;
+    margin: auto;
+    width: 39%;
+    height: 11%;
+    z-index: 8888;
+    transform: skewY(-3deg) rotate(1deg);
+    box-shadow: -9px 31px 12px -14px rgba(249,236,233,0.55);
+}
+
+body .paper .container div.body .neck {
+    top: -4%;
+    left: 30.5%;
+    width: 21.7%;
+    height: 25%;
+    transform: rotate(-2deg);
+    transition: all 1s ease-out;
+}
+
+body .paper .container div.body .neck:hover {
+    top: -4%;
+    left: 30.5%;
+    width: 18.7%;
+    height: 25%;
+    transform: rotate(-2deg);
+}
+
+body .paper .container div.body .pin {
+    width: 6%;
+    height: 5%;
+    left: 63.5%;
+    top: 40.3%;
+    transform: rotate(-15deg);
+    border-radius: 18% 28% 29% 33% / 49% 50% 32% 31%;
+    box-shadow: 1px 4px 4px -1px rgba(21,1,1,0.32),-1px 6px 4px 3px rgba(21,1,1,0.25);
+    transition: all 1s ease-out;
+}
+
+body .paper .container div.body .pin:hover {
+    width: 8%;
+    height: 7%;
+    left: 61.5%;
+    top: 39.3%;
+    transform: rotate(-15deg);
+    border-radius: 18% 28% 29% 33% / 49% 50% 32% 31%;
+    box-shadow: 1px 4px 4px -1px rgba(21,1,1,0.32),-1px 6px 4px 3px rgba(21,1,1,0.25);
+}
+
+body .paper .container .square .hairdo {
+    top: 23.5%;
+    left: 26%;
+    width: 28%;
+    height: 30%;
+    transform: rotate(-9deg);
+    transition: all 4s ease-out;
+}
+
+body .paper .container .square .hairdo:hover {
+    top: 23.5%;
+    left: 26%;
+    width: 28%;
+    height: 30%;
+    transform: rotate(-9deg);
+    filter: hue-rotate(2.5turn);
+}
+
+body .paper .container .head .face .eye.eleft {
+    transform: scaleX(-1) rotate(18deg);
+    left: 32%;
+    width: 23.5%;
+    top: 43%;
+    transition: all 4s ease-out;
+}
+
+body .paper .container .head .face .eye.eleft:hover {
+    transform: scaleX(-1) rotate(378deg);
+    left: 32%;
+    width: 23.5%;
+    top: 43%;
+}
+
+body .paper .container .head .face .eye.eright {
+    transform: rotate(15deg) rotateY(-32deg) scale(.95);
+    right: 0;
+    top: 42.5%;
+    width: 24.5%;
+    transition: all 4s ease-out;
+}
+
+body .paper .container .head .face .eye.eright:hover {
+    transform: rotate(180deg) rotateY(-32deg) scale(.95);
+    right: 0;
+    top: 42.5%;
+    width: 24.5%;
+}
+
+body .paper .container div.body .waist .shirt {
+    width: 100%;
+    height: 100%;
+    transition: all 4s ease-out;
+}
+
+body .paper .container div.body .waist .shirt:hover {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+body .paper .container .square .body .feather.feather1,body .paper .container .square .hairdo .feather.feather1 {
+    width: 54%;
+    height: 23%;
+    top: -44%;
+    right: -47%;
+    transform: rotate(113deg);
+    transition: all 4s ease-out;
+}
+
+
