@@ -1,0 +1,146 @@
+body{
+    background-color:  #FF9800;
+
+}
+body:active{
+
+}
+
+.square {
+    pointer-events: none;
+    width: 10%;
+    height: 10%;
+    left: 50%;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.line {
+    position:  fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    mix-blend-mode: multiply;
+}
+
+.box {
+    position:  fixed;
+    height:  100%;
+    width:  100%;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left:  50%;
+}
+
+#a .square {
+    background-color: #d03428;
+}
+
+#b .square {
+    background-color: #E91E63;
+}
+
+#c .square {
+    background-color: #9C27B0;
+}
+
+#d .square {
+    background-color: #673AB7;
+}
+
+#e .square {
+    background-color: #3F51B5;
+}
+
+#f .square {
+    background-color: #2196F3;
+}
+
+#g .square {
+    background-color: #03A9F4;
+}
+
+#h .square {
+    background-color: #00BCD4;
+}
+
+#i .square {
+    background-color: #009688;
+}
+
+#j .square {
+    background-color: #4CAF50;
+}
+
+#k .square {
+    background-color: #8BC34A;
+}
+
+#l .square {
+    background-color: #CDDC39;
+}
+
+#m .square {
+    background-color: #FFEB3B;
+}
+
+#n .square {
+    background-color: #FFC107;
+}
+
+#a {transform: rotate(120deg);
+
+}
+
+#b {
+    transform: rotate(27deg);
+}
+
+#c {
+    transform: rotate(45deg);
+}
+
+#d {
+    transform: rotate(55deg);
+}
+
+#e {
+    transform: rotate(66deg);
+}
+
+#f {
+    transform: rotate(77deg);
+}
+
+#g {
+    transform: rotate(88deg);
+}
+
+#h {
+    transform: rotate(99deg);
+}
+
+#i {
+    transform: rotate(105deg);
+}
+
+#j {
+    transform: rotate(116deg);
+}
+
+#k {
+    transform: rotate(127deg);
+}
+
+#l {
+    transform: rotate(138deg);
+}
+
+#m {
+    transform: rotate(149deg);
+}
+
+#n {
+    transform: rotate(160deg);
+}
