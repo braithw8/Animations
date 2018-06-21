@@ -626,8 +626,6 @@ body .paper .container .square .pearlstring .pearl.pearl23 {
     left: 100%
 }
 
-
-
 body .paper .container .square .body .band,body .paper .container .square .hairdo .band {
     border-radius: 92% 8% 9% 9% / 59% 90% 11% 15%;
     z-index: 2;
@@ -781,8 +779,6 @@ body .paper .container .square .body .side.left,body .paper .container .square .
 body .paper .container .square .body .side.right,body .paper .container .square .hairdo .side.right {
     left: 50%
 }
-
-
 
 body .paper .container .square .body .feather.feather1 .featherside .feath,body .paper .container .square .hairdo .feather.feather1 .featherside .feath {
     border-right-width: 5px
@@ -2375,8 +2371,6 @@ body .paper .container div.body .waist .belt .uppershadow {
     bottom: 77%
 }
 
-
-
 body .paper .container div.body .waist .shirt .leftshirt {
     background-image: linear-gradient(94deg, #1485a3 87%, transparent);
     box-shadow: 0 6px 2px -4px rgba(168,196,213,0.3),inset 0 -2px 4px 0 #0c4d5f;
@@ -2757,8 +2751,6 @@ body .paper .container div.body .wrap .wrapinner:after {
     border-bottom: 1px dashed rgba(74,124,154,0.5)
 }
 
-
-
 body .paper .container div.body .pin .midpin {
     border-radius: inherit;
     width: 55%;
@@ -3009,8 +3001,6 @@ body .paper .container div.body .shouldershine {
     height: 3%;
     box-shadow: 0 0 50px 23px #d2c0ba
 }
-
-
 
 body .paper .container div.body .neck .leftneck {
     width: 40%;
@@ -3706,8 +3696,6 @@ body .paper .container .head .face .eye .eyeball .iris:after {
     background: #c5afaf
 }
 
-
-
 body .paper .container .head .face .eye.eleft .eyeball {
     border-bottom-color: #ddc1c2;
     border-top-color: #9b6c6c;
@@ -3724,8 +3712,6 @@ body .paper .container .head .face .eye.eleft .iris:after {
     right: 34%;
     top: 34%
 }
-
-
 
 body .paper .container .head .face .eye.eright:after {
     box-shadow: 11px 1px 3px 0 rgba(90,4,4,0.77),inset -10px -5px 5px -5px rgba(112,19,19,0.22);
@@ -3789,8 +3775,6 @@ body .paper .container .head .face .noseshadow {
     box-shadow: inset 7px -8px 9px -2px rgba(77,36,14,0.86),-6px -2px 4px -2px rgba(84,35,8,0.83);
     transform: rotate(-16deg)
 }
-
-
 
 body .paper .container .head .face .nose:after,body .paper .container .head .face .nose:before {
     content: "";
@@ -3936,8 +3920,6 @@ body .paper .container .head .face .mouthshadow {
     z-index: 99;
     bottom: 14%
 }
-
-
 
 body .paper .container .head .face .mouth:after,body .paper .container .head .face .mouth:before {
     content: "";

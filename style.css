@@ -1,0 +1,9 @@
+body{
+    font-size: 1.24vmax;
+    font-family: sans-serif;
+    margin: 20vmax;
+    background: radial-gradient(white,#f3efe9,#d6cec1);
+}h1{}h2{}h3{}ul{}hr{
+}li{
+    padding: .2em;
+}

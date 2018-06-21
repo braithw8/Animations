@@ -22,30 +22,32 @@ function draw() {
     background(155);
     fill(255);
     strokeCALC = windowWidth * windowHeight / 80000;
-    //print(strokeCALC);
+    //responsive stroke calculation
     strokeWeight(strokeCALC);
     radius = windowWidth * windowHeight / 24000;
+    //responsive curve radius
 
-    rect(windowWidth * 300 / 800, windowHeight * 100 / 600, windowWidth * 200 / 800, windowHeight * 400 / 600, radius, radius, radius, radius);
+    //responsive size character
+
     //face
-    strokeWeight(strokeCALC * 6 / 8);
-    rect(335 * windowWidth / 800, 150 * windowHeight / 600, 50 * windowWidth / 800, 50 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
+    rect(windowWidth * 300 / 800, windowHeight * 100 / 600, windowWidth * 200 / 800, windowHeight * 400 / 600, radius, radius, radius, radius);
+
     //left eye
     strokeWeight(strokeCALC * 6 / 8);
-    rect(415 * windowWidth / 800, 150 * windowHeight / 600, 50 * windowWidth / 800, 50 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
+    rect(335 * windowWidth / 800, 150 * windowHeight / 600, 50 * windowWidth / 800, 50 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
+
     //right eye
+    strokeWeight(strokeCALC * 6 / 8);
+    rect(415 * windowWidth / 800, 150 * windowHeight / 600, 50 * windowWidth / 800, 50 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
 
-    rect(337 * windowWidth / 800 + eyeballx, 152 * windowHeight / 600 + eyebally, 5 * windowWidth / 800, 5 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
     //left eyeball
+    rect(337 * windowWidth / 800 + eyeballx, 152 * windowHeight / 600 + eyebally, 5 * windowWidth / 800, 5 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
 
-    rect(417 * windowWidth / 800 + xmap, 152 * windowHeight / 600 + ymap, 5 * windowWidth / 800, 5 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
     //right eyeball
-
-    //rect(windowWidth /2 - windowWidth/100 *5, windowHeight /2 + windowHeight /100 *10, windowWidth /100 * 10, windowHeight /100 * 10, radius, radius, radius, radius);
-    rect(windowWidth /2 - windowWidth/100 *5, windowHeight /2 + windowHeight /100 *10, windowWidth /100 * 10, smallMouseY/10, radius, radius, radius, radius);
-
+    rect(417 * windowWidth / 800 + xmap, 152 * windowHeight / 600 + ymap, 5 * windowWidth / 800, 5 * windowHeight / 600, radius / 2, radius / 2, radius / 2, radius / 2);
 
     //mouth
+    rect(windowWidth / 2 - windowWidth / 100 * 5, windowHeight / 2 + windowHeight / 100 * 10, windowWidth / 100 * 10, smallMouseY / 10, radius, radius, radius, radius);
 
 }
 

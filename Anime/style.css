@@ -1,5 +1,5 @@
-body{
-    background-color:  black;
+body {
+    background-color: black;
 }
 
 .square {
@@ -12,21 +12,20 @@ body{
 }
 
 .line {
-    position:  fixed;
+    position: fixed;
     margin: 0;
     width: 100%;
     height: 100%;
-    /* position: fixed; */
     mix-blend-mode: difference;
 }
 
 .box {
-    position:  fixed;
-    height:  100%;
-    width:  100%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
     transform: translate(-5%, -50%);
     top: 50%;
-    left:  50%;
+    left: 50%;
 }
 
 #a .square {
@@ -85,8 +84,8 @@ body{
     background-color: #FFC107;
 }
 
-#a {transform: rotate(120deg);
-
+#a {
+    transform: rotate(120deg);
 }
 
 #b {
